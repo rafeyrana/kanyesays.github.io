@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Ftr-Fnt-Regular";
+  src: url("Ftr-Fnt-Regular.ttf.woff") format("woff"),
+    url("Ftr-Fnt-Regular.ttf.svg#Ftr-Fnt-Regular") format("svg"),
+    url("Ftr-Fnt-Regular.ttf.eot"),
+    url("Ftr-Fnt-Regular.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  cursor: url("icons8-kim-kardashian-2-30.png"), auto;
+  background-color: #381711;
+  font-family: "Bebas Neue", cursive;
+}
+body {
+  margin: 0;
+}
+
+#kanye-west {
+  text-align: center;
+  color: #dfa417;
+  /* font-family: 'Ftr-Fnt-Regular';   */
+
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#kanye-says {
+  color: #dfa417;
+  /* font-family: 'Ftr-Fnt-Regular';   */
+
+  font-size: 30px;
+  padding: 3%;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+footer > h3 {
+  background-color: #ae6e1f;
+  color: black;
+  padding: 1%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+footer>h3>a
+{
+  text-decoration: none;
+  color:#241109;
+}
+#socials {
+  text-align: center;
+}
+#twitter {
+  margin: 2%;
+  padding: 0.7% 3% 0.7% 3%;
+  border-radius: 6px;
+  background-color: #dfa417;
+  border: 1px solid #241109;
+  margin-bottom: 10%;
+}
+
+#twitter > a {
+  font-size: 20px;
+  color: #241109;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 6%;
+}
+
+/* 
+responsive */
+
+@media screen and (max-width: 500px) {
+  @font-face {
+    font-family: "Ftr-Fnt-Regular";
+    src: url("Ftr-Fnt-Regular.ttf.woff") format("woff"),
+      url("Ftr-Fnt-Regular.ttf.svg#Ftr-Fnt-Regular") format("svg"),
+      url("Ftr-Fnt-Regular.ttf.eot"),
+      url("Ftr-Fnt-Regular.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  html {
+    cursor: url("icons8-kim-kardashian-2-30.png"), auto;
+    background-color: #381711;
+    font-family: "Bebas Neue", cursive;
+  }
+  body {
+    margin: 0;
+  }
+
+  #kanye-west {
+    text-align: center;
+    color: #dfa417;
+    /* font-family: 'Ftr-Fnt-Regular';   */
+
+    font-size: 35px;
+  }
+
+  #kanye-says {
+    color: #dfa417;
+    /* font-family: 'Ftr-Fnt-Regular';   */
+
+    font-size: 20px;
+    padding: 3%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  footer > h3 {
+    background-color: #ae6e1f;
+    color: black;
+    padding: 1%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  footer>h3>a
+  {
+    text-decoration: none;
+    color:#241109;
+  }
+  #socials {
+    text-align: center;
+  }
+  #twitter {
+    margin: 2%;
+    padding: 0.7% 3% 0.7% 3%;
+    border-radius: 6px;
+    background-color: #dfa417;
+    border: 1px solid #241109;
+    margin-bottom: 10%;
+  }
+
+  #twitter > a {
+    font-size: 20px;
+    color: #241109;
+    text-decoration: none;
+    font-family: "Bebas Neue", cursive;
+  }
+ 
+  
+}
